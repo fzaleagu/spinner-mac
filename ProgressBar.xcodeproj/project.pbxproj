@@ -13,6 +13,10 @@
 		44B93C9B15EA22E600B209A1 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 44B93C9915EA22E600B209A1 /* Credits.rtf */; };
 		44B93C9E15EA22E600B209A1 /* PCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B93C9D15EA22E600B209A1 /* PCAppDelegate.m */; };
 		44B93CA115EA22E600B209A1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44B93C9F15EA22E600B209A1 /* MainMenu.xib */; };
+		44B93CA915EA230D00B209A1 /* PCProgressCirlceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B93CA815EA230D00B209A1 /* PCProgressCirlceView.m */; };
+		44B93CCA15EA237B00B209A1 /* Bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 44B93CC815EA237B00B209A1 /* Bar.png */; };
+		44B93CCB15EA237B00B209A1 /* Badge.png in Resources */ = {isa = PBXBuildFile; fileRef = 44B93CC915EA237B00B209A1 /* Badge.png */; };
+		44B93CCD15EA23D100B209A1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44B93CCC15EA23D100B209A1 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +33,11 @@
 		44B93C9C15EA22E600B209A1 /* PCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCAppDelegate.h; sourceTree = "<group>"; };
 		44B93C9D15EA22E600B209A1 /* PCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCAppDelegate.m; sourceTree = "<group>"; };
 		44B93CA015EA22E600B209A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		44B93CA715EA230D00B209A1 /* PCProgressCirlceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCProgressCirlceView.h; sourceTree = "<group>"; };
+		44B93CA815EA230D00B209A1 /* PCProgressCirlceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCProgressCirlceView.m; sourceTree = "<group>"; };
+		44B93CC815EA237B00B209A1 /* Bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bar.png; sourceTree = "<group>"; };
+		44B93CC915EA237B00B209A1 /* Badge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Badge.png; sourceTree = "<group>"; };
+		44B93CCC15EA23D100B209A1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44B93CCD15EA23D100B209A1 /* QuartzCore.framework in Frameworks */,
 				44B93C8B15EA22E600B209A1 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,6 +73,7 @@
 		44B93C8915EA22E600B209A1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				44B93CCC15EA23D100B209A1 /* QuartzCore.framework */,
 				44B93C8A15EA22E600B209A1 /* Cocoa.framework */,
 				44B93C8C15EA22E600B209A1 /* Other Frameworks */,
 			);
@@ -82,6 +93,10 @@
 		44B93C9015EA22E600B209A1 /* ProgressBar */ = {
 			isa = PBXGroup;
 			children = (
+				44B93CC815EA237B00B209A1 /* Bar.png */,
+				44B93CC915EA237B00B209A1 /* Badge.png */,
+				44B93CA715EA230D00B209A1 /* PCProgressCirlceView.h */,
+				44B93CA815EA230D00B209A1 /* PCProgressCirlceView.m */,
 				44B93C9C15EA22E600B209A1 /* PCAppDelegate.h */,
 				44B93C9D15EA22E600B209A1 /* PCAppDelegate.m */,
 				44B93C9F15EA22E600B209A1 /* MainMenu.xib */,
@@ -157,6 +172,8 @@
 				44B93C9515EA22E600B209A1 /* InfoPlist.strings in Resources */,
 				44B93C9B15EA22E600B209A1 /* Credits.rtf in Resources */,
 				44B93CA115EA22E600B209A1 /* MainMenu.xib in Resources */,
+				44B93CCA15EA237B00B209A1 /* Bar.png in Resources */,
+				44B93CCB15EA237B00B209A1 /* Badge.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +186,7 @@
 			files = (
 				44B93C9715EA22E600B209A1 /* main.m in Sources */,
 				44B93C9E15EA22E600B209A1 /* PCAppDelegate.m in Sources */,
+				44B93CA915EA230D00B209A1 /* PCProgressCirlceView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
